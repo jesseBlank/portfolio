@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-image {
-    background-image: URL("src/assets/desertSky.jpeg");
+    background-image: URL(src/assets/desertSky.jpeg);
 }
 
 .profile-img {
