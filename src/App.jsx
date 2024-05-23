@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter basename={"/porfolio"}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/main" element={<Main />} />
