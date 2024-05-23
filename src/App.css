@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-image {
-    background-image: URL(src/assets/desertSky.jpeg);
-}
-
 .profile-img {
     animation-duration: 2s;
     animation-iteration-count: infinite;

@@ -1,10 +1,14 @@
 import React from "react";
+import desertSky from "../assets/desertSky.jpeg"
 import { Link } from "react-router-dom";
 
 const Home = () => {
+    const backgroundImageStyle = {
+        backgroundImage: `url("${desertSky}")`,
+    }
 
     return (
-            <div className="hero min-h-screen bg-image">
+            <div className="hero min-h-screen" style={backgroundImageStyle}>
                 <div className="hero-overlay bg-opacity-20"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
