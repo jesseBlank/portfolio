@@ -18,3 +18,11 @@
     50%  { transform: translateY(-50px); }
     100% { transform: translateY(0); }
 }
+
+.zoom:hover {
+    transform: scale(1.15);
+}
+
+.shdw:hover {
+    box-shadow: 5px 5px 35px 0px #865350;
+}
