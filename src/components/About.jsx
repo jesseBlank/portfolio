@@ -11,10 +11,10 @@ const About = () => {
         <div className="bg-base-100 w-10/12 mx-auto mt-10">
             <div className="flex gap-10">
                 <div className="grid grid-rows-2 grid-flow-col gap-4">
-                    <img src={profile} className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
-                    <img src={zion} className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
-                    <img src={grandCanyon} className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
-                    <img src={airplane} className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                    <img src={profile} alt="profile" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                    <img src={zion} alt="zion" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                    <img src={grandCanyon} alt="grand canyon" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                    <img src={airplane} alt="airplane" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
                 </div>
                 <div className="my-auto">
                     <h3>About me</h3>
