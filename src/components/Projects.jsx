@@ -26,7 +26,7 @@ const Projects = () => {
                             </h2>
                             <Link to="https://github.com/jesseBlank/musicest" className="btn btn-outline btn-primary">Github</Link>
                         </div>
-                        <p className="italic">Ecommerce site. Buy musical instruments. Google OAuth implimented.</p>
+                        <p className="italic">Ecommerce site. Buy musical instruments. Google OAuth implemented.</p>
                         <div className="card-actions justify-end">
                             <p><span className="font-bold">Front End: </span>React.js</p>
                             <p><span className="font-bold">Back End: </span>Node.js with Express</p>
@@ -64,7 +64,7 @@ const Projects = () => {
                             </h2>
                             <Link to="https://github.com/jesseBlank/Project-StarGazer" className="btn btn-outline btn-primary">Github</Link>
                         </div>
-                        <p className="italic">Implimented NASA Astronomy Picture of the Day API. User can log in and save NASA pictures to their dashboard to review later.</p>
+                        <p className="italic">implemented NASA Astronomy Picture of the Day API. User can log in and save NASA pictures to their dashboard to review later.</p>
                         <div className="card-actions justify-end">
                             <p><span className="font-bold">Front End: </span>HTML, Jinja</p>
                             <p><span className="font-bold">Back End: </span>Python, Flask</p>
