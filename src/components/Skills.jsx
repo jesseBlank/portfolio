@@ -3,6 +3,11 @@ import collaboration from "../assets/collaboration.png"
 import development from "../assets/development.png"
 import problem from "../assets/problem.png"
 import oop from "../assets/oop.webp"
+import java from "../assets/java.webp"
+import html from "../assets/html.png"
+import css from "../assets/css.png"
+import javascript from "../assets/javascript.png"
+import python from "../assets/python.png"
 
 const Skills = () => {
 
@@ -40,14 +45,24 @@ const Skills = () => {
 
             <div className="flex flex-col lg:flex-row w-11/12 mx-auto gap-5">
                 <div className="grid flex-grow w-64">
-                <h3 className="text-center text-3xl font-bold my-2">Languages</h3>
+                    <h3 className="text-center text-3xl font-bold my-2">Languages</h3>
                     <div className="h-32 bg-primary rounded-box place-items-center text-white shadow-lg">
                         <ul className="grid grid-rows-2 grid-flow-col mt-8 text-center">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript(ES6)</li>
-                            <li>Python</li>
-                            <li>Java</li>
+                            <li>
+                                <img src={html} alt="html" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={css} alt="css" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={javascript} alt="javascript" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={python} alt="python" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={java} alt="java" className="w-10 rounded-lg" />
+                            </li>
                         </ul>
                     </div>
                 </div>
