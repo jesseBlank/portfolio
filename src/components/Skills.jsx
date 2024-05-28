@@ -46,8 +46,8 @@ const Skills = () => {
             <div className="flex flex-col lg:flex-row w-11/12 mx-auto gap-5">
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Languages</h3>
-                    <div className="h-32 bg-primary rounded-box place-items-center text-white shadow-lg">
-                        <ul className="grid grid-rows-2 grid-flow-col mt-8 text-center">
+                    <div className="h-32 bg-neutral-content bg-rounded-box place-items-center text-white shadow-lg rounded-xl">
+                        <ul className="flex justify-between my-10 mx-10">
                             <li>
                                 <img src={html} alt="html" className="w-10 rounded-lg" />
                             </li>
@@ -58,7 +58,7 @@ const Skills = () => {
                                 <img src={javascript} alt="javascript" className="w-10 rounded-lg" />
                             </li>
                             <li>
-                                <img src={python} alt="python" className="w-10 rounded-lg" />
+                                <img src={python} alt="html" className="w-10 rounded-lg" />
                             </li>
                             <li>
                                 <img src={java} alt="java" className="w-10 rounded-lg" />
