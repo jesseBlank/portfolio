@@ -4,10 +4,28 @@ import development from "../assets/development.png"
 import problem from "../assets/problem.png"
 import oop from "../assets/oop.webp"
 import java from "../assets/java.webp"
-import html from "../assets/html.png"
+import html from "../assets/html.webp"
 import css from "../assets/css.png"
 import javascript from "../assets/javascript.png"
 import python from "../assets/python.png"
+import flask from "../assets/flask.png"
+import node from "../assets/node.svg"
+import jinja from "../assets/jinja.png"
+import springBoot from "../assets/springBoot.png"
+import jquery from "../assets/jquery.webp"
+import react from "../assets/react.png"
+import express from "../assets/express.png"
+import tailwind from "../assets/tailwind.svg"
+import bootstrap from "../assets/bootstrap.png"
+import api from "../assets/api.png"
+import ajax from "../assets/ajax.png"
+import git from "../assets/git.png"
+import github from "../assets/github.png"
+import json from "../assets/json.png"
+import mongo from "../assets/mongo.png"
+import mongoose from "../assets/mongoose.png"
+import mysql from "../assets/mysql.svg"
+import thunderclient from "../assets/thunderclient.webp"
 
 const Skills = () => {
 
@@ -46,7 +64,7 @@ const Skills = () => {
             <div className="flex flex-col lg:flex-row w-11/12 mx-auto gap-5">
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Languages</h3>
-                    <div className="h-32 bg-neutral-content bg-rounded-box place-items-center text-white shadow-lg rounded-xl">
+                    <div className="h-32 bg-base-200 bg-rounded-box place-items-center text-white shadow-lg rounded-xl">
                         <ul className="flex justify-between my-10 mx-10">
                             <li>
                                 <img src={html} alt="html" className="w-10 rounded-lg" />
@@ -68,32 +86,73 @@ const Skills = () => {
                 </div>
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Frameworks/Libraries</h3>
-                    <div className="h-32 bg-primary rounded-box place-items-center text-white shadow-lg">
-                        <ul className="grid grid-rows-3 grid-flow-col mt-6 text-center">
-                            <li>Flask</li>
-                            <li>Node.js</li>
-                            <li>Jinja2</li>
-                            <li>Spring Boot</li>
-                            <li>jQuery</li>
-                            <li>React</li>
-                            <li>Express</li>
-                            <li>TailwindCSS</li>
-                            <li>Bootstrap</li>
+                    <div className="h-32 bg-base-200 shadow-lg rounded-xl">
+                        <ul className="flex justify-between mx-10 my-4">
+                            <li>
+                                <img src={flask} alt="flask" className="w-10" />
+                            </li>
+                            <li>
+                                <img src={node} alt="node" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={jinja} alt="jinja" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={springBoot} alt="springBoot" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={jquery} alt="jquery" className="w-10 rounded-lg" />
+                            </li>
+                        </ul>
+                        <ul className="flex justify-between mx-10">
+                            <li>
+                                <img src={react} alt="react" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={express} alt="express" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={tailwind} alt="tailwind" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={bootstrap} alt="bootstrap" className="w-10 rounded-lg" />
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Databases/Tools</h3>
-                    <div className="h-32 bg-primary rounded-box place-items-center text-white shadow-lg">
-                        <ul className="grid grid-rows-3 grid-flow-col mt-6 text-center">
-                            <li>MySQL</li>
-                            <li>MongoDB</li>
-                            <li>Mongoose</li>
-                            <li>AJAX</li>
-                            <li>REST API</li>
-                            <li>JSON</li>
-                            <li>Git/GitHub</li>
-                            <li>Thunderclient</li>
+                    <div className="h-32 bg-base-200 shadow-lg rounded-xl">
+                        <ul className="flex justify-between mx-10 my-4">
+                            <li>
+                                <img src={mysql} alt="mysql" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={mongo} alt="mongo" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={mongoose} alt="mongoose" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={ajax} alt="ajax" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={api} alt="api" className="w-10 rounded-lg" />
+                            </li>
+                        </ul>
+                        <ul className="flex justify-between mx-10">
+                            <li>
+                                <img src={json} alt="json" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={git} alt="git" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={github} alt="github" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
+                                <img src={thunderclient} alt="thunderclient" className="w-10 rounded-lg" />
+                            </li>
                         </ul>
                     </div>
                 </div>
