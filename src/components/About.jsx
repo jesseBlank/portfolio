@@ -1,8 +1,8 @@
 import React from "react";
-import profile from "../assets/profile.jpeg"
-import zion from "../assets/zion.jpeg"
-import grandCanyon from "../assets/grandCanyon.jpeg"
-import airplane from "../assets/airplane.jpeg"
+import profile from "../assets/profile.webp"
+import zion from "../assets/zion.webp"
+import grandCanyon from "../assets/grandCanyon.webp"
+import airplane from "../assets/airplane.webp"
 
 const About = () => {
 
