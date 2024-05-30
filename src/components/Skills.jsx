@@ -64,7 +64,7 @@ const Skills = () => {
             <div className="flex flex-col lg:flex-row w-11/12 mx-auto gap-5">
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Languages</h3>
-                    <div className="h-32 bg-base-200 bg-rounded-box place-items-center text-white shadow-lg rounded-xl">
+                    <div className="h-32 bg-base-100 rounded-lg shadow-lg">
                         <ul className="flex justify-between my-10 mx-10">
                             <li>
                                 <img src={html} alt="html" className="w-10 rounded-lg" />
@@ -86,13 +86,10 @@ const Skills = () => {
                 </div>
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Frameworks/Libraries</h3>
-                    <div className="h-32 bg-base-200 shadow-lg rounded-xl">
+                    <div className="h-32 bg-base-100 rounded-lg shadow-lg">
                         <ul className="flex justify-between mx-10 my-4">
                             <li>
                                 <img src={flask} alt="flask" className="w-10" />
-                            </li>
-                            <li>
-                                <img src={node} alt="node" className="w-10 rounded-lg" />
                             </li>
                             <li>
                                 <img src={jinja} alt="jinja" className="w-10 rounded-lg" />
@@ -109,6 +106,9 @@ const Skills = () => {
                                 <img src={react} alt="react" className="w-10 rounded-lg" />
                             </li>
                             <li>
+                                <img src={node} alt="node" className="w-10 rounded-lg" />
+                            </li>
+                            <li>
                                 <img src={express} alt="express" className="w-10 rounded-lg" />
                             </li>
                             <li>
@@ -122,7 +122,7 @@ const Skills = () => {
                 </div>
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Databases/Tools</h3>
-                    <div className="h-32 bg-base-200 shadow-lg rounded-xl">
+                    <div className="h-32 bg-base-100 rounded-lg shadow-lg">
                         <ul className="flex justify-between mx-10 my-4">
                             <li>
                                 <img src={mysql} alt="mysql" className="w-10 rounded-lg" />
