@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/resume.webp"
+import resume from "../assets/resume.jpg"
 import Navbar from "../components/Navbar";
 
 const Resume = () => {

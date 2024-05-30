@@ -1,8 +1,8 @@
 import React from "react";
 import linkedIn from "../assets/linkedIn.webp"
-import github from "../assets/github.webp"
-import gmail from "../assets/gmail.webp"
-import resume from "../assets/resume.webp"
+import github from "../assets/github.png"
+import gmail from "../assets/gmail.jpg"
+import resume from "../assets/resume.jpg"
 import { Link } from "react-router-dom";
 
 const Farewell = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import desertSky from "../assets/desertSky.webp"
+import desertSky from "../assets/desertSky.jpeg"
 import { Link } from "react-router-dom";
 
 const Home = () => {
