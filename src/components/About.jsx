@@ -8,7 +8,7 @@ const About = () => {
 
     return (
 
-        <div className="bg-base-100 w-10/12 mx-auto mt-10">
+        <div className="bg-base-100 w-10/12 mx-auto mt-10 fade">
             <div className="flex gap-10">
                 <div className="grid grid-rows-2 grid-flow-col gap-4">
                     <img src={profile} alt="profile" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
