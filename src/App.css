@@ -8,6 +8,12 @@
     transform-origin: bottom;
 }
 
+.icon {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
 .bounce:hover {
     animation-name: bounce;
     animation-timing-function: ease;
@@ -25,20 +31,4 @@
 
 .shdw:hover {
     box-shadow: 5px 5px 35px 0px #865350;
-}
-
-@keyframes fade-up {
-    0% {
-        opacity: 0;
-        transform: translateY(30px) scale(0.9);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px) scale(1);
-    }
-}
-
-.fade {
-    animation: fade-up 0.5s;
 }

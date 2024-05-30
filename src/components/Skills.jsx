@@ -26,6 +26,7 @@ import mongo from "../assets/mongo.png"
 import mongoose from "../assets/mongoose.png"
 import mysql from "../assets/mysql.svg"
 import thunderclient from "../assets/thunderclient.webp"
+import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
 
@@ -37,34 +38,43 @@ const Skills = () => {
                 <h1 className="text-5xl font-bold pb-6">What I do</h1>
             </div>
 
-
+            
             <div className="grid grid-flow-col gap-5 text-center auto-cols-max justify-center mx-auto w-8/12 my-6">
+            <Fade right delay={250} duration={1500}>
                 <div className="flex flex-col">
                     <img src={collaboration} alt="collaboration" className="w-52 mx-auto p-2 bg-primary-content rounded-box shadow-lg" />
                     <h5 className="font-bold text-center text-xl my-1">Collaboration</h5>
                     <p className="w-64">Collaborate by communicating openly and adapting quickly.</p>
                 </div>
+                </Fade>
+                <Fade right delay={500} duration={1500}>
                 <div className="flex flex-col">
                     <img src={development} alt="development" className="w-52 mx-auto p-2 bg-primary-content rounded-box shadow-lg" />
                     <h5 className="font-bold text-center text-xl my-1">Development</h5>
                     <p className="w-64">Practitioner of agile development and clean code.</p>
                 </div>
+                </Fade>
+                <Fade right delay={750} duration={1500}>
                 <div className="flex flex-col">
                     <img src={problem} alt="problem solving" className="w-52 mx-auto p-2 bg-primary-content rounded-box shadow-lg" />
                     <h5 className="font-bold text-center text-xl my-1">Problem Solving</h5>
                     <p className="w-64">Creative innovative thinker. Implement unique solutions.</p>
                 </div>
+                </Fade>
+                <Fade right delay={1000} duration={1500}>
                 <div className="flex flex-col">
                     <img src={oop} alt="oop" className="w-52 mx-auto p-2 bg-primary-content rounded-box shadow-lg" />
                     <h5 className="font-bold text-center text-xl my-1 w-52 mx-auto">Object-Oriented Programming</h5>
                     <p className="w-64">Proficient at creating modular, reusable, and maintaining code.</p>
                 </div>
+                </Fade>
             </div>
+            
 
             <div className="flex flex-col lg:flex-row w-11/12 mx-auto gap-5">
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Languages</h3>
-                    <div className="h-32 bg-base-100 rounded-lg shadow-lg">
+                    <div className="h-32 bg-base-100 rounded-lg shadow-lg bounce icon">
                         <ul className="flex justify-between my-10 mx-10">
                             <li>
                                 <img src={html} alt="html" className="w-10 rounded-lg" />
@@ -86,7 +96,7 @@ const Skills = () => {
                 </div>
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Frameworks/Libraries</h3>
-                    <div className="h-32 bg-base-100 rounded-lg shadow-lg">
+                    <div className="h-32 bg-base-100 rounded-lg shadow-lg bounce icon">
                         <ul className="flex justify-between mx-10 my-4">
                             <li>
                                 <img src={flask} alt="flask" className="w-10" />
@@ -122,7 +132,7 @@ const Skills = () => {
                 </div>
                 <div className="grid flex-grow w-64">
                     <h3 className="text-center text-3xl font-bold my-2">Databases/Tools</h3>
-                    <div className="h-32 bg-base-100 rounded-lg shadow-lg">
+                    <div className="h-32 bg-base-100 rounded-lg shadow-lg bounce icon">
                         <ul className="flex justify-between mx-10 my-4">
                             <li>
                                 <img src={mysql} alt="mysql" className="w-10 rounded-lg" />

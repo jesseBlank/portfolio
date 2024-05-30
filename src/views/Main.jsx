@@ -12,7 +12,7 @@ const Main = () => {
     return (
         <div>
             <Navbar />
-            <Fade>
+            <Fade top distance="10%" duration={1500}>
                 <About />
                 <Skills />
                 <Projects />
