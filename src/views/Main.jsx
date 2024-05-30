@@ -12,8 +12,8 @@ const Main = () => {
     return (
         <div>
             <Navbar />
-            <Fade top distance="10%" duration={1500}>
                 <About />
+                <Fade top distance="10%" duration={1500}>
                 <Skills />
                 <Projects />
                 <Farewell />
