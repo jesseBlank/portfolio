@@ -3,19 +3,22 @@ import profile from "../assets/profile.jpeg"
 import zion from "../assets/zion.jpeg"
 import grandCanyon from "../assets/grandCanyon.jpeg"
 import airplane from "../assets/airplane.jpeg"
+import { Fade } from "react-awesome-reveal";
+
 
 const About = () => {
 
     return (
-
         <div className="bg-base-100 w-10/12 mx-auto mt-10 fade">
             <div className="flex gap-10">
-                <div className="grid grid-rows-2 grid-flow-col gap-4">
-                    <img src={profile} alt="profile" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
-                    <img src={zion} alt="zion" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
-                    <img src={grandCanyon} alt="grand canyon" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
-                    <img src={airplane} alt="airplane" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
-                </div>
+                <Fade top distance="10%" duration={1500}>
+                    <div className="grid grid-rows-2 grid-flow-col gap-4">
+                        <img src={profile} alt="profile" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                        <img src={zion} alt="zion" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                        <img src={grandCanyon} alt="grand canyon" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                        <img src={airplane} alt="airplane" className="w-96 rounded-full profile-img zoom drop-shadow-xl shdw" />
+                    </div>
+                </Fade>
                 <div className="my-auto">
                     <h3>About me</h3>
                     <h1 className="text-5xl font-bold pb-6">Who am I?</h1>
@@ -25,6 +28,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+
 
     )
 
