@@ -14,7 +14,7 @@ const Projects = () => {
                 <h1 className="text-5xl font-bold pb-6">What have I done?</h1>
             </div>
 
-            <div className="grid grid-rows-2 grid-cols-2 mx-auto w-9/12">
+            <div className="flex mx-auto w-9/12">
                 <div className="card w-96 bg-neutral-content shadow-lg mx-auto mb-20">
                     <figure>
                         <video src={musicestVideo} controls alt="musicest" />
@@ -53,6 +53,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex mx-auto w-9/12">
                 <div className="card w-96 bg-neutral-content shadow-xl mx-auto my-5">
                     <figure>
                         <video src={starGazer} alt="project star gazer" controls />
@@ -92,8 +94,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-
         </div>
+
     )
 
 }
