@@ -11,19 +11,19 @@ const Carousel = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 3000); // Change the slide every 3 seconds
+        }, 3000);
 
-        return () => clearInterval(interval); // Clean up the interval on component unmount
+        return () => clearInterval(interval);
     }, [images.length]);
 
     return (
-        <div className="w-7/12 carousel rounded-box">
+        <div className="w-7/12 carousel">
             {images.map((image, index) => (
                 <div
                     key={index}
-                    className={`carousel-item w-full ${index === currentIndex ? 'block' : 'hidden'}`}
+                    className={`w-full ${index === currentIndex ? 'block' : 'hidden'}`}
                 >
-                    <img src={image} className="w-full" alt="Carousel component" />
+                    <img src={image} className="h-80 w-64 rounded-full" alt="Carousel component" />
                 </div>
             ))}
         </div>
