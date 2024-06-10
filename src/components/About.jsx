@@ -1,8 +1,4 @@
 import React from "react";
-import profile from "../assets/profile.jpeg"
-import zion from "../assets/zion.jpeg"
-import grandCanyon from "../assets/grandCanyon.jpeg"
-import airplane from "../assets/airplane.jpeg"
 import { Fade } from "react-awesome-reveal";
 import Carousel from "./Carousel";
 

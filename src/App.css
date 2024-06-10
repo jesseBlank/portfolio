@@ -40,3 +40,16 @@
 .shdw:hover {
     box-shadow: 5px 5px 35px 0px #865350;
 }
+
+/* Example CSS */
+@media (max-width: 768px) {
+
+    /* Styles for mobile devices */
+    .container {
+        padding: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}
