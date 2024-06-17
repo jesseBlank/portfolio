@@ -2,10 +2,20 @@ import React from "react";
 import linkedIn from "../assets/linkedIn.webp"
 import github from "../assets/github.png"
 import gmail from "../assets/gmail.jpg"
-import resume from "../assets/resume.jpg"
+import resumeIcon from "../assets/resume-icon.png"
 import { Link } from "react-router-dom";
 
 const Farewell = () => {
+
+    const onButtonClick = () => {
+        const pdfUrl = "Jesse Blank - Resume.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "Jesse Blank - Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
 
     return (
         <div className="w-10/12 mx-auto">
@@ -21,13 +31,16 @@ const Farewell = () => {
                         <Link to="https://github.com/jesseBlank" className="my-auto">Github</Link>
                     </li>
                     <li className="flex gap-2">
+                        <img src={resumeIcon} alt="resume icon" className="w-8" />
+                        <button onClick={onButtonClick}>
+                            Download Resume
+                        </button>
+                    </li>
+                    <li className="flex gap-2">
                         <img src={gmail} alt="gmail" className="w-8" />
                         <p className="my-auto">jesselloydblank@gmail.com</p>
                     </li>
                 </ul>
-            </div>
-            <div>
-                <img src={resume} alt="resume" className="mx-auto" />
             </div>
         </div>
     )

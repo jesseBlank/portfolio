@@ -66,7 +66,7 @@ const Projects = () => {
                             </h2>
                             <Link to="https://github.com/jesseBlank/Project-StarGazer" className="btn btn-outline btn-primary">Github</Link>
                         </div>
-                        <p className="italic">implemented NASA Astronomy Picture of the Day API. User can log in and save NASA pictures to their dashboard to review later.</p>
+                        <p className="italic">Implemented NASA Astronomy Picture of the Day API. User can log in and save NASA pictures to their dashboard to review later.</p>
                         <div className="card-actions justify-end">
                             <p><span className="font-bold">Front End: </span>HTML, Jinja</p>
                             <p><span className="font-bold">Back End: </span>Python, Flask</p>

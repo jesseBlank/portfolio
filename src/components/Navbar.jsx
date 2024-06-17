@@ -3,6 +3,16 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
+    const onButtonClick = () => {
+        const pdfUrl = "Jesse Blank - Resume.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "Jesse Blank - Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
     return (
 
         <div className="navbar bg-neutral-content rounded-lg w-11/12 mx-auto drop-shadow-md">
@@ -23,7 +33,9 @@ const Navbar = () => {
                             </summary>
                             <ul className="p-2 bg-base-100 rounded-t-none">
                                 <li>
-                                    <Link to="/resume">Resume</Link>
+                                    <button onClick={onButtonClick}>
+                                        Resume
+                                    </button>
                                 </li>
                                 <li>
                                     <Link to="https://www.linkedin.com/in/jesse-blank/">LinkedIn</Link>
