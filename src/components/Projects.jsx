@@ -8,16 +8,16 @@ import { Link } from "react-router-dom";
 const Projects = () => {
 
     return (
-        <div>
-            <div className="ml-32">
+        <div className="container mx-auto px-4">
+            <div className="text-center md:text-left md:ml-32">
                 <h3>Projects</h3>
-                <h1 className="text-5xl font-bold pb-6">What have I done?</h1>
+                <h1 className="text-4xl md:text-5xl font-bold pb-6">What have I done?</h1>
             </div>
 
-            <div className="flex mx-auto w-9/12">
-                <div className="card w-96 bg-neutral-content shadow-lg mx-auto mb-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mx-auto w-full md:w-9/12">
+                <div className="card bg-neutral-content shadow-lg mx-auto mb-20">
                     <figure>
-                        <video src={musicestVideo} controls alt="musicest" />
+                        <video src={musicestVideo} controls alt="musicest" className="w-full" />
                     </figure>
                     <div className="card-body">
                         <div className="flex justify-between">
@@ -34,9 +34,9 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-neutral-content shadow-xl mx-auto mb-20">
+                <div className="card bg-neutral-content shadow-lg mx-auto mb-20">
                     <figure>
-                        <video src={bac} controls alt="bac" />
+                        <video src={bac} controls alt="bac" className="w-full" />
                     </figure>
                     <div className="card-body">
                         <div className="flex justify-between">
@@ -54,10 +54,10 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex mx-auto w-9/12">
-                <div className="card w-96 bg-neutral-content shadow-xl mx-auto my-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mx-auto w-full md:w-9/12">
+                <div className="card bg-neutral-content shadow-xl mx-auto my-5">
                     <figure>
-                        <video src={starGazer} alt="project star gazer" controls />
+                        <video src={starGazer} alt="project star gazer" controls className="w-full" />
                     </figure>
                     <div className="card-body">
                         <div className="flex justify-between">
@@ -74,7 +74,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-neutral-content shadow-xl mx-auto my-5">
+                <div className="card bg-neutral-content shadow-xl mx-auto my-5">
                     <figure>
                         <video src={blackjack} controls alt="blackjack" />
                     </figure>
