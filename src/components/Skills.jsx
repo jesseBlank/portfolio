@@ -48,21 +48,21 @@ const Skills = () => {
                 </div>
                 </Fade>
                 <Fade right delay={500} duration={1500}>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                     <img src={development} alt="development" className="w-32 md:w-52 mx-auto p-2 bg-primary-content rounded-box shadow-lg" />
                     <h5 className="font-bold text-center text-xl my-1">Development</h5>
                     <p className="w-64">Practitioner of agile development and clean code.</p>
                 </div>
                 </Fade>
                 <Fade right delay={750} duration={1500}>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                     <img src={problem} alt="problem solving" className="w-32 md:w-52 mx-auto p-2 bg-primary-content rounded-box shadow-lg" />
                     <h5 className="font-bold text-center text-xl my-1">Problem Solving</h5>
                     <p className="w-64">Creative innovative thinker. Implement unique solutions.</p>
                 </div>
                 </Fade>
                 <Fade right delay={1000} duration={1500}>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                     <img src={oop} alt="oop" className="w-32 md:w-52 mx-auto p-2 bg-primary-content rounded-box shadow-lg" />
                     <h5 className="font-bold text-center text-xl my-1 w-52 mx-auto">Object-Oriented Programming</h5>
                     <p className="w-64">Proficient at creating modular, reusable, and maintaining code.</p>
